@@ -114,8 +114,11 @@ $headings-font-family : inherit !default;
 
 .blendbg {
     color: #0074D9;
-    .tv .screen.active {
-      mix-blend-mode: difference; }
+    mix-blend-mode: normal;
+    transition: mix-blend-mode .5s;
+    transition: color .5s;
+    color: #000000;
+    mix-blend-mode: difference; }
 }
 
 

@@ -28,7 +28,7 @@
   animation-name: blendedbg;
   animation-iteration-count: 1;
   animation-duration: 4s;
-  animation-timing-function: cubic-bezier(0.15, 0.6, 0.48, 0.96);
+  animation-timing-function: easy-out;
   mix-blend-mode: difference; }
 
 @keyframes blendedbg {

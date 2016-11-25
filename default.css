@@ -25,9 +25,12 @@
 
 .blendbg {
     color: #0074D9;
-    mix-blend-mode: initial;
+    mix-blend-mode: normal;
     transition: mix-blend-mode .5s;
     transition: color .5s;
+}
+
+.blendbg1 {
     color: #ffffff;
     mix-blend-mode: difference;
 }

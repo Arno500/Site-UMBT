@@ -24,10 +24,12 @@
   background: none !important; }
 
 .blendbg {
-  color: #0074D9;
+  color: #ffffff;
   mix-blend-mode: normal;
   transition: mix-blend-mode 0.5s;
   transition: color 0.5s; }
+  .blendbg.active {
+    mix-blend-mode: difference; }
 
 .alert {
   padding: 15px;

@@ -27,18 +27,16 @@
   color: #ffffff;
   animation-name: blendedbg;
   animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-duration: 4s;
   mix-blend-mode: difference; }
 
 @keyframes blendedbg {
   0% {
     transform: translateY(-80px);
-    opacity: 0;
-    mix-blend-mode: difference; }
+    opacity: 0; }
   100% {
     transform: translateY(0);
-    opacity: 1;
-    mix-blend-mode: normal; } }
+    opacity: 1; } }
 
 .alert {
   padding: 15px;

@@ -27,7 +27,7 @@
   color: #ffffff;
   animation-name: blendedbg;
   animation-iteration-count: 1;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   mix-blend-mode: difference; }
 
 @keyframes blendedbg {

@@ -27,9 +27,17 @@
   color: #ffffff;
   mix-blend-mode: normal;
   transition: mix-blend-mode 0.5s;
-  transition: color 0.5s; }
-  .blendbg.active {
-    mix-blend-mode: difference; }
+  animation-name: blendedbg;
+  animation-iteration-count: 1;
+  animation-duration: 0.5s; }
+
+@keyframes blendedbg {
+  0% {
+    transform: translateY(-80px);
+    mix-blend-mode: normal; }
+  100% {
+    transform: translateY(0);
+    mix-blend-mode: difference; } }
 
 .alert {
   padding: 15px;

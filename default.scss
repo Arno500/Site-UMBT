@@ -114,7 +114,6 @@ $headings-font-family : inherit !default;
 
 .blendbg {
     color: #ffffff;
-    mix-blend-mode: normal;
     transition: mix-blend-mode .5s;
     animation-name: blendedbg;
     animation-iteration-count: 1;

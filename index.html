@@ -8,7 +8,12 @@
 </head>
 
 <body>
-  <div class="bg-primary p-y-3 tv section">
+  <div class="bg-primary p-y-3 tv section" style="    opacity: 0;
+    transition: opacity .5s;
+
+    &amp;.active {
+      opacity: 1;
+    }">
     <div class="screen mute" id="tv"></div>
     <div class="container">
       <div class="row">
@@ -186,6 +191,8 @@ $('.hi span:last-of-type').on('click', function(){
   $('.hi em:nth-of-type(2)').html('~');
   tv.pauseVideo();
   </script>
+
+
 
 
 

@@ -23,18 +23,6 @@
   pointer-events: none;
   background: none !important; }
 
-.blendbg {
-    color: #0074D9;
-    mix-blend-mode: normal;
-    transition: mix-blend-mode .5s;
-    transition: color .5s;
-}
-
-.blendbg {
-    color: #ffffff;
-    mix-blend-mode: difference;
-}
-
 .alert {
   padding: 15px;
   margin-bottom: 1rem;

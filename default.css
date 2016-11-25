@@ -30,7 +30,7 @@
     transition: color .5s;
 }
 
-.blendbg:hover {
+.blendbg {
     color: #ffffff;
     mix-blend-mode: difference;
 }

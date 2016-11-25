@@ -33,11 +33,11 @@
   0% {
     transform: translateY(-80px);
     opacity: 0;
-    mix-blend-mode: normal; }
+    mix-blend-mode: difference; }
   100% {
     transform: translateY(0);
     opacity: 1;
-    mix-blend-mode: difference; } }
+    mix-blend-mode: normal; } }
 
 .alert {
   padding: 15px;

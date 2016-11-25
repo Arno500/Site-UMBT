@@ -34,9 +34,11 @@
 @keyframes blendedbg {
   0% {
     transform: translateY(-80px);
+    opacity: 0;
     mix-blend-mode: normal; }
   100% {
     transform: translateY(0);
+    opacity: 1;
     mix-blend-mode: difference; } }
 
 .alert {

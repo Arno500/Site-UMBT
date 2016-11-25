@@ -112,6 +112,14 @@ $headings-font-family : inherit !default;
     background:none !important;
 }
 
+.blendbg {
+    color: #0074D9;
+    transition: color 0.5s;
+    &amp;.active {
+      mix-blend-mode: difference;
+    }
+}
+
 
 @import 'bootstrap';
 @import 'pingendo-bootstrap';

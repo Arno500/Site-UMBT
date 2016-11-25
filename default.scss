@@ -113,17 +113,14 @@ $headings-font-family : inherit !default;
 }
 
 .blendbg {
-    color: #fffff;
+    color: #ffffff;
     mix-blend-mode: normal;
     transition: mix-blend-mode .5s;
     transition: color .5s;
+      &.active {
+      mix-blend-mode: difference;
+    }
 }
-
-.blendbg {
-  color: #000000;
-  mix-blend-mode: difference;
-}
-
 
 
 @import 'bootstrap';

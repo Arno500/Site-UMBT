@@ -81,7 +81,7 @@ $headings-font-family : inherit !default;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: -1;
 
   width: 100%;
   height: 100%;
@@ -94,7 +94,7 @@ $headings-font-family : inherit !default;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: -2;
+    z-index: -1;
 
     margin: auto;
 

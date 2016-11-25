@@ -28,7 +28,7 @@
     mix-blend-mode: initial;
     transition: mix-blend-mode .5s;
     transition: color .5s;
-    color: #000000;
+    color: #ffffff;
     mix-blend-mode: difference;
 }
 

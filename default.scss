@@ -117,7 +117,7 @@ $headings-font-family : inherit !default;
     animation-name: blendedbg;
     animation-iteration-count: 1;
     animation-duration: 4s;
-    animation-timing-function: ease-out;
+    animation-timing-function: cubic-bezier(.2,.98,.71,.95);
     mix-blend-mode: difference;
 }
 

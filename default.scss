@@ -116,7 +116,7 @@ $headings-font-family : inherit !default;
     color: #ffffff;
     animation-name: blendedbg;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 4s;
     mix-blend-mode: difference;
 }
 
@@ -124,12 +124,10 @@ $headings-font-family : inherit !default;
     0% {
         transform: translateY(-80px);
         opacity: 0;
-        mix-blend-mode: difference;
     }
     100% {
         transform: translateY(0);
         opacity: 1;
-        mix-blend-mode: normal;
     }
 }
 

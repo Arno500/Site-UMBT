@@ -113,10 +113,9 @@ $headings-font-family : inherit !default;
 }
 
 .blendbg {
-    color:#0074D9;
+    color: #0074D9;
     &amp;.active {
-      mix-blend-mode:difference;
-    }
+      mix-blend-mode: difference; }
 }
 
 
